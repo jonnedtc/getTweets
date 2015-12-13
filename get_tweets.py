@@ -19,7 +19,7 @@ success = 0
 log_file = open('log_file.txt', 'w')
 
 # Create empty utf8 file
-result_file = codecs.open("source\\text_"+FILENAME+".txt", "w", "utf8")
+result_file = codecs.open("tweets_"+FILENAME+".txt", "w", "utf8")
 
 # Open file with tweet IDs
 in_file = codecs.open("source\\"+FILENAME)
